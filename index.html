@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="Shortcut Icon" href="https://start.geeklab.work/images/%E5%9B%BE%E6%A0%87.ico" type="KYSC" />
+<html lang="en"><head><link rel="Shortcut Icon" href="https://start.geeklab.work/images/%E5%9B%BE%E6%A0%87.ico" type="KYSC">
 
-<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,11 +28,11 @@
             font-size: 6rem;
             color: white;
             text-align: center;
-            margin-top: 80px;
+            margin-top: 70px;
         }
 
         .bookmarks {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(4, 1fr);
             margin-top: 12%;
             padding: 0 20%;
@@ -44,18 +43,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 100px;
-            height: 100px;
-            margin: 0 auto;
+            width: 120px;
+            height: 120px;
+            margin: 12px;
             font-size: 0.9rem;
             background-color: rgba(0, 0, 0, 0.3);
-            -webkit-backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(7px);
             backdrop-filter: blur(5px);
             text-decoration: none;
             color: white;
-            border-radius: 8px;
+            border-radius: 7px;
             transition: all 0.3s ease;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         .bookmark:hover {
@@ -69,7 +68,7 @@
             margin-bottom: 10px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 600px) {
             .bookmarks {
                 grid-template-columns: repeat(3, 1fr);
                 padding: 0;
@@ -85,7 +84,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 1000px;
+            width: 800px;
             height: 100px;
             margin: 0 auto;
             font-size: 1.1rem;
@@ -103,9 +102,7 @@
 </head>
 <!--background-->
 <body style="background-image: url(https://api.iyk0.com/jxbz);">
-    <div id="datetime">
-        Loading
-    </div>
+    <div id="datetime">20:14</div>
     <nav class="bookmarks">
         <a class="bookmark" href="https://www.baidu.com">
             <img src="/assets/baidu.png" alt="Baidu">
@@ -157,6 +154,7 @@
        
     </script>
 <!--foot-->
-    </body>
+    
 
-</html>
+
+</body></html>
